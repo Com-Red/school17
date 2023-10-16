@@ -1,0 +1,47 @@
+body{
+    background-image: url(/image/93216.jpg);
+    background-size: 100%;
+}
+@keyframes animaldiv {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 150px;
+    }
+}
+div{
+    margin: auto;
+    align-items: center;
+}
+#class{
+    width: 400px;
+    height: 100px;
+    background-image: url(/image/rm218-bb-07.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+#class div{
+    background-image: url(/image/v960-ning-05.jpg);
+    background-size: 100%;
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#class a :hover{
+    animation-name: animaldiv;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
