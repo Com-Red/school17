@@ -26,7 +26,7 @@ div{
 
 }
 #class div{
-    background: linear-gradient(90deg, rgba(240,245,225,1) 0%, rgba(255,208,253,1) 35%, rgba(162,232,246,1) 100%);
+    background-color: aliceblue;
     background-size: 100%;
     width: 100px;
     height: 70px;
