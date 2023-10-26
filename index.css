@@ -4,10 +4,10 @@ body{
 }
 @keyframes animaldiv {
     from {
-        width: 100px;
+        width: 150px;
     }
     to {
-        width: 150px;
+        width: 170px;
     }
 }
 div{
@@ -15,8 +15,8 @@ div{
     align-items: center;
 }
 #class{
-    width: 500px;
-    height: 100px;
+    width: 700px;
+    height: 70px;
     background-color: rgba(0, 0, 0, 0.425);
     background-size: 100%;
     display: flex;
@@ -28,8 +28,8 @@ div{
 #class div{
     background-color: aliceblue;
     background-size: 100%;
-    width: 100px;
-    height: 70px;
+    width: 150px;
+    height: 40px;
     border-radius: 20px;
     text-align: center;
     font-size: 30px;
