@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(90deg, rgba(222,255,209,1) 0%, rgba(255,195,212,1) 35%, rgba(226,255,182,1) 100%);;
     background-size: 100%;
+    padding: 0 2%;
 }
 @keyframes animaldiv {
     from {
@@ -44,4 +45,11 @@ a{
     animation-name: animaldiv;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+}
+
+.otchet h2{
+    text-align: center;
+}
+.otchet p{
+    background-color: aliceblue;
 }
